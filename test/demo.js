@@ -36,7 +36,7 @@ var map = mapStuff.map;
 var layerControl = mapStuff.layerControl;
 
 // load data (u, v grids) from somewhere (e.g. https://github.com/danwild/wind-js-server)
-$.getJSON('surface-currents-global', function (data) {
+$.getJSON('surface-currents-global.json', function (data) {
 	var velocityLayer = L.velocityLayer({
 		displayValues: true,
 		displayOptions: {
