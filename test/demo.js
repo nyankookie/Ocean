@@ -45,7 +45,7 @@ $.getJSON('surface-currents-global.json', function (data) {
 			displayEmptyString: 'No current data'
 		},
 		data: data,
-		maxVelocity: 2.5
+		maxVelocity: 3
 	});
 	layerControl.addOverlay(velocityLayer, 'Current - Global');
 });
